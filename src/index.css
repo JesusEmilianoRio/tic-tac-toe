@@ -1,0 +1,34 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #d3d3d3;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.player{
+  padding: 50px;
+  padding-bottom: 10px;
+  text-align: center;
+  
+}
+.box{
+
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.box__container-data{
+  background-color: #aaa;
+  font-size: 50px;
+  border: 1px solid #000000;
+  padding: 50px;
+  text-align: center;
+  transition: 0.2ms;
+}
+.box__container-data:hover{
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.8);
+}
