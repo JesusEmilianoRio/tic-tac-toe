@@ -1,11 +1,13 @@
 
 import Board from "./components/Board";
+import PlayerComponent from "./components/PlayerComponent";
 function App() {
 
 
   return (
     <>
-      <Board></Board>
+      <PlayerComponent/>
+      <Board/>
     </>
   )
 }
